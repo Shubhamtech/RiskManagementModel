@@ -30,10 +30,11 @@ function App() {
   };
   return (
     <Container maxWidth="sm">
+
       <Box
         sx={{
           m: 2,
-          mt: 20,
+          mt: 15,
           mb: 10,
         }}>
         <Heading />
@@ -51,8 +52,7 @@ function App() {
             loading ? (
               <button>Loading document..</button>
             ) : (
-              <Box sx={{ alignItems: "center", mx: "auto",pl:24
-               }}>
+              <Box sx={{ alignItems: "center", mx: "auto", pl: 24 }}>
                 <Button variant="contained">Download</Button>
               </Box>
             )
