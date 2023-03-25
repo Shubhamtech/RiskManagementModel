@@ -44,7 +44,7 @@ function App() {
          this is a model for risk  checking
         </p>
         <br/>
-        <PDFFile />
+        
        <PDFDownloadLink document={<PDFFile />} fileName="FORM">
         {({loading})=> loading? (
          <button>Loading document..</button> 
